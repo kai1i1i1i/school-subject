@@ -7,17 +7,12 @@
 
     <script>
      function displayDate() {
-  // 현재 날짜와 시간 정보를 가진 객체 생성
   const now = new Date(); 
   
-  // 'demo'라는 id를 가진 요소에 날짜 문자열 삽입
   document.getElementById("demo").innerHTML = now.toLocaleString();
 }
     </script>
     
- 
-
-
     <h1>1234567890</h1>
     <h1>abcdefghijklmnopqrstuvwxyz</h1>
     <h2>웹문서 만들기</h2>
@@ -39,20 +34,5 @@
         <marquee direction="right"><font size="7" color ="green">안녕하세요</font></marquee>
         <p><hr align="left" size="6" color="black"></p>
 
-      <button onclick="displayDate()">WWW</button>
-<p id="demo"></p>
-    <script>
-    <button onclick="showImage()">사진 보기</button>
-<div id="image-container" style="display:none; margin-top:20px;">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZR9npLfmApWYC0keCwuwCDzeini7NocCW8w&s" width="400">
-</div>
-    <script>
-    function showImage() {
-    const container = document.getElementById("image-container");
-    container.style.display = "block";
-}
-    </script>
-
-        <script>
     </body>
 </html>
