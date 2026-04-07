@@ -1,0 +1,56 @@
+<html>
+  <head><title>학번: 10224 이름: 이정안   웹문서의 작성</title></head>
+  <body bgcolor="lightblue">
+    <h1>웹문서 만들기</h1>
+    <button onclick="displayDate()">현재 시간 보기</button>
+<p id="demo"></p>
+
+    <script>
+     function displayDate() {
+  const now = new Date(); 
+  
+  document.getElementById("demo").innerHTML = now.toLocaleString();
+}
+    </script>
+    
+ 
+    <h1>1234567890</h1>
+    <h1>abcdefghijklmnopqrstuvwxyz</h1>
+    <font size="6" color="FFFFFF" face="궁서"><i>ABCDEFGHIJKLMNOPQRSTUVWXYZ</i><font>
+    <font size="4" color="black" face="굴림"><u>웹문서 만들기</u><font><p><br>
+    <h2>웹문서 만들기</h2>
+    <h3>웹문서 만들기</h3>
+    <h4>웹문서 만들기</h4>
+    <h5>웹문서 만들기</h5>
+    <h6>웹문서 만들기</h6>
+
+      <font size="7" color="orange" face="바탕체"><b>가장 큰 글자 -태그 7 활용</b></font><br>
+      <font size="6" color="olive" face="굴림"><u>글자 태그 6 활용</u></font><p>
+      <font size="5" color="olive" face="굴림"><u>글자 태그 5 활용</u></font><p>
+      <font size="4" color="olive" face="굴림"><u>글자 태그 4 활용</u></font><p>
+      <font size="3" color="green" face="굴림"><u>글자 태그 3 활용</u></font><p>
+      <font size="2" color="#ff34b4" face="굴림"><i>좀더 큰 글자 2</i></font><p>
+      <font size="1" color="blue" face="궁서"><u>글자 태그 1 활용</u></font><br>
+      <br><br><br><br><br><br>
+        <center><font size="5" color="red" face="궁서">가운데 정렬</font></center>
+        <p><hr align="right" size="6" color="gold"></p>
+        <marquee direction="right"><font size="7" color ="green">안녕하세요</font></marquee>
+        <p><hr align="left" size="6" color="black"></p>
+
+      <button onclick="displayDate()">WWW</button>
+<p id="demo"></p>
+    <script>
+    <button onclick="showImage()">사진 보기</button>
+<div id="image-container" style="display:none; margin-top:20px;">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZR9npLfmApWYC0keCwuwCDzeini7NocCW8w&s" width="400">
+</div>
+    <script>
+    function showImage() {
+    const container = document.getElementById("image-container");
+    container.style.display = "block";
+}
+    </script>
+
+        <script>
+    </body>
+</html>
