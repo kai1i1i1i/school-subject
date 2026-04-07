@@ -1,0 +1,36 @@
+<html>
+<head><title>순서가 있는 목록과 없는 목록 작성</title></head>
+<body>
+<h2>운영체제</h2>
+<ol type=A>
+<li>운영체제의 기능
+<li>운영체제의 종류
+<li>운영체제의 활용
+</ol>
+<h2>입력장치</h2>
+<ul type=A>
+<li>키보드
+<li>마우스
+<li>스캐너
+</ul>
+<h2>출력장치</h2>
+<ul type=circle>
+<li>CD
+<li>모니터
+<h2>응용S/W</h2>
+<ol type=Shape>
+<li>워드프로세서
+<li>데이터베이스관리시스템
+<li>스프레드시트
+    <button onclick="displayDate()">현재 시간 보기</button>
+<p id="demo"></p>
+
+    <script>
+     function displayDate() {
+  const now = new Date(); 
+  
+  document.getElementById("demo").innerHTML = now.toLocaleString();
+}
+    </script>
+</body>
+</html>
