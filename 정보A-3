@@ -1,0 +1,13 @@
+<head><title>멀티 미디어 태그의 사용</head></title>
+<body>
+<h3>이미지 넣기</h3>
+<ul type=L>
+<li>img
+<li>embed
+</ul>
+<img src="C:\html\123213213.jpeg" width="300" height="350">
+<br>
+<h2>동영상/음악 파일 넣기</h2>
+<embed src="C:\html\제목 없음 - 메모장 2026-04-08 13-23-42.mp4" autostart="false" loop="true" width="300" height="300">
+</body>
+</html>
