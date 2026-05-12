@@ -1,0 +1,10 @@
+<html>
+<head><title>하이퍼링크 달기</title></head>
+<body>
+<h3>하이퍼링크 넣기</h3>
+<a href="http://www.ahnlab.com" target="blank">안철수 연구소<br>
+<img src="2.png" width="300" height-"100"></a><p>
+<a href="http://www.ebsi.co.kr" target="blank">ebsi 가기</a><p>
+<a href="menu.html" target="blank">현재 폴더의 문서 연결</a>
+</body>
+</html>
