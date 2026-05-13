@@ -1,0 +1,32 @@
+<html>
+<head><title>표</title></head>
+<body>
+<TABLE width="350" height="222"  border='3'>
+<TR>
+<tr align="center">
+<td><img src="github.png" width="50" height="50"></td>
+<td><img src="python.png" width="50" height="50"></td>
+<td><img src="html.png" width="60" height="50"></td>
+<td><img src="javascript.png" width="50" height="50"></td>
+<td><img src="css.png" width=50", height="50"></td></tr>
+<TD rowspan='5' bgcolor='#00FFCC'>코드저장<br>개발공유</TD>
+<TD rowspan='4' bgcolor='#0066CC'>비교적<br>쉬운문법<br>입문하기<br>괜찮음</TD>
+<TD rowspan='3' bgcolor='#009999'>웹사이트<br>뼈대</TD>
+<TD rowspan='2' bgcolor='#00F33C'>웹사이트<br>기능넣기</TD>
+<TD bgcolor ='0000CC'>웹사이트<br>디자인</TD>
+</TR>
+<table width="350" height="300" border="3">
+<tr align="center">
+  <td rowspan="3">셀1-열 합치기</td>
+  <td>1행2열</td>
+  <td>1행3열</td></tr>
+<tr align="center">
+  <td><img src="java.png" width="50" height="50"></td></tr>
+  <td><img src="c.gif" width = "50" height-"50"></td></tr>
+<tr align="center">
+  <td>3행2열</td>
+  <td>3행3열</td></tr>
+</table>
+
+</body>
+</html>
